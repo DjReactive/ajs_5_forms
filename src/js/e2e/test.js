@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 
 jest.setTimeout(30000);
-describe('INN/ORGN from', () => {
+describe('Test', () => {
   let browser = null;
   let page = null;
-  const baseUrl = 'http://localhost:8888';
+  const baseUrl = 'http://localhost:9000';
   beforeAll(async () => {
     browser = await puppeteer.launch(
     /*{
